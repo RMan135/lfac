@@ -1,0 +1,27 @@
+
+
+int MAX3(int a, int b, int c)
+{
+	if(a < b)
+		if(b < c) return c;
+		else return b;
+	else 
+		if (a < c) return c;
+		else return a;
+}
+
+int GCD(int a, int b)
+{
+    while(1)
+    {
+        a = a % b;
+	if( a == 0 )return b;
+	b = b % a;
+        if( b == 0 )return a;
+    }
+}
+
+int LCM(int a, int b)
+{
+	return a*b/GCD(a,b);
+}

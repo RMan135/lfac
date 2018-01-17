@@ -1,0 +1,31 @@
+int euclid(int x, int y) {
+  int z;
+
+  while (y > 1) {
+    z = x % y;
+    x = y;
+    y = z;
+  }
+
+  x;
+}
+
+string s = "";
+for (int i = 1; i < 10; i = i + 1) {
+  if (i % 2 == 0) {
+    s = s+i;
+  }
+}
+print(s);
+
+print(nu_exist);
+int cmmdc = (euclid(21, 7) * (4 - 2))/2;
+
+int facminuni = cmmdc + x; 
+
+int euclid(int x) x;
+char cmmdc2 = (euclid(21, 7) * (4 - 2))/2;
+print(euclid("df", 2));
+euclid();
+euclid(2);
+euclid(2,3,4);

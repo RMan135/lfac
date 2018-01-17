@@ -1,0 +1,61 @@
+   int ^^a;
+   float ^^b -> 2,44;
+   int ^^negativ -> -23;
+   int ^^vector[24];
+   int ^^matrice[4][4];
+   string ^^sir[255];
+
+   class ^^numar
+   c_start
+      	private: int ^^numar1;
+        
+
+        public: int ^^functie();
+
+        public: float ^^medie2( int ^^a, int^^b) // tip_constrangere declaratie_functie corp_functie ';' 
+
+                f_start
+                    float ^^medie;
+                    ^^medie->((^^a + ^^b)/2);
+
+                    for ^^i->0 while (^^medie == ^^medie1) execute
+                       return ^^adevarat;
+                    end_for
+
+                f_end; 
+      
+   c_end;
+
+   int ^^maxim(int ^^a,int ^^b)
+   f_start
+
+        int ^^a;
+        int ^^b;
+
+        if (^^a > ^^b) then return ^^a; end_then
+                     else return ^^b; end_else 
+         
+   f_end;
+
+   begin_program 
+ 
+       ^^numar.^^numar1->126;
+       ^^numar.^^medie(2,3);
+
+       ^^a->( ^^vector[2] + ^^numar.^^medie(3 , 3) );
+
+       do 
+
+   	^^matrice[2][3]-> 244;
+   	 while ( ((^^a * ^^b)!=(^^vector[2]*^^a)) == (^^a * ^^vector[4]) ) execute
+          	 ^^c->2;
+                  for ^^i->0 while (^^numar.^^medie2(4,5) != 3) execute
+                       ^^c->(^^c + 2);
+                  end_for
+
+   	 end_while
+
+       conditie_final_do (^^a >= ^^b)      
+
+   end_program
+                

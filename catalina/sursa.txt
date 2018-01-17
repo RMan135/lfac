@@ -1,0 +1,45 @@
+
+//bb=4;
+	var a=-12;
+	//var a=2;
+	//var a;
+	var b=11;
+	var c;
+	var maxim;
+	var home;
+	var divizor;
+	var negativ;
+	var sss;
+
+main()
+{	
+//var q=9;
+	print(9+5);
+	 //a1=3;
+	//print(maxim);
+	//print (home);
+var c=999;
+	a=-(4+5);
+	print(a);
+	b=10+10;
+	print (b);
+
+	c=3*(3+5*(5-8)+5);
+
+	maxim=maxim3(a+1,b,c+5);
+	print(maxim);
+
+	divizor=divizor_comun(b,c);
+	print(divizor);
+	
+	print(multiplu_comun(b,c)+4);
+	
+	negativ=-13+3;
+	print(negativ+sss);
+	print(4+3*5+99);
+	
+	home=maxim3(4,5,9)*5;
+	print(home);
+	//divizor_comun
+    //print (an);	
+}

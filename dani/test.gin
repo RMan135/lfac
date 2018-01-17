@@ -1,0 +1,20 @@
+class MyClass {
+  int x = 3;
+  int y;
+
+  int add() {
+    x+y;
+  }
+};
+
+MyClass x;
+print(x.y);
+
+char z = x.y;
+
+x.y = 5;
+print(x.y);
+x.y = "df";
+
+MyClass t;
+print(t.x + x.y);

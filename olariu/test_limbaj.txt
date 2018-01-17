@@ -1,0 +1,46 @@
+intreg a;
+intreg b;
+
+class  student 
+start_clasa
+public:
+intreg a;
+sfarsit_clasa;
+
+intreg func1 (intreg a,intreg b)
+start_functie
+a=10;
+a=10+(20*60)/2;
+c=10+b*df;
+sfarsit_functie;
+
+intreg func2 (intreg b)
+start_functie
+
+daca 2>4
+atunci
+a=10;
+sfarsit_atunci
+altfel 
+c=10;
+sfarsit_altfel
+
+sfarsit_functie;
+
+intreg func1 ()
+start_functie
+cat_timp a>b
+a=10;
+c=10;
+sfarsit_cat_timp
+sfarsit_functie;
+
+start_program
+pentru (i=0 i<n i=1+i)
+executa
+n=n+1;
+n=n/10;
+sfarsit_pentru
+a=10+10+(2+3);
+c=A;
+sfarsit_program
