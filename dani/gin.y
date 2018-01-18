@@ -11,6 +11,7 @@ void yyerror(char *s);
 
 FILE* yyin;
 int yylineno;
+
 %}
 
 %union {
@@ -22,8 +23,8 @@ int yylineno;
     nodeType *nPtr;
 };
 
-%token ASSIGN_SYMBOL AND OR TRUE FALSE NOT REAL INT VOID CHAR STRING BGIN END CLASS
 
+%token ASSIGN_SYMBOL AND OR TRUE FALSE NOT REAL INT VOID CHAR STRING BGIN END CLASS
 
 %token <iValue> INTEGER
 %token <fValue> FLOAT
@@ -45,7 +46,10 @@ int yylineno;
 %type <nPtr> expression aritmetic_expressions boolean_expressions binary_expressions
 %type <nPtr> param_list param_list_elem function_block function_call expression_list
 %type <nPtr> class_block class_declarations_element class_declarations
+
+
 %%
+
 
 program : statements { exit(0); }
         ;
@@ -216,7 +220,11 @@ class_declarations_element : declaration ';' { $$ = $1; }
 class_declarations : class_declarations_element
                    | class_declarations class_declarations_element { $$ = add_opr_node(';', 2, $1, $2); }
                    ;
+
+
 %%
+
+
 
 void yyerror(char *s) {
   fprintf(stdout, "%s\n", s);
